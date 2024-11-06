@@ -14,6 +14,6 @@ for (let i = 2; sequenciaFibonacci[i - 1] <= valor; i++) { // Gerando os próxim
 }
 
 let resposta = isValorEmSequencia ? 'O valor está na sequeência de Fibonacci' :
-    'O valor não está na sequeência de Fibonacci';
+    'O valor não está na sequência de Fibonacci';
 
 console.log(resposta)
