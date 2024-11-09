@@ -4,7 +4,7 @@ let sequenciaFibonacci = [0, 1];
 
 let isValorEmSequencia = false;
 
-for (let i = 2; sequenciaFibonacci[i - 1] <= valor; i++) { // Gerando os próximos 8 números
+for (let i = 2; sequenciaFibonacci[i - 1] <= valor; i++) {
     let proximoValor = sequenciaFibonacci[i - 1] + sequenciaFibonacci[i - 2];
     sequenciaFibonacci.push(proximoValor);
 
